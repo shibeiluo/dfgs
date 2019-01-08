@@ -1,0 +1,17 @@
+
+----------------------查看用户名和邮箱地址
+$ git config user.name
+$ git config user.email
+----------------------修改用户名和邮箱地址
+$ git config --global user.name "username"
+$ git config --global user.email "email"
+
+--------------------------生成公钥
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+---------------------------上传
+git status
+git add .
+git commit -m "备注"
+git pull
+git push
